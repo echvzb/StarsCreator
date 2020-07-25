@@ -1,0 +1,23 @@
+body{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.on, .off{
+	opacity: 0;	
+}
+.on{
+	fill: #ffcd3c;
+}
+.off{
+	fill: blue;
+}
+svg{
+	background: #000;
+}
+circle{
+	fill: #fff;
+	transition: 2000ms;
+	opacity: 1;
+}
